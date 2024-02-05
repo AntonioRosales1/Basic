@@ -12,6 +12,10 @@ document.getElementById("mainClick").addEventListener("click", function () {
   mainClick.style.backgroundColor = colorOne;
   secondBtn.style.backgroundColor = colorOne;
   document.body.style.background = colorBackgroundOne;
+  mainClick.style.color = headerOne;
+  secondBtn.style.color = headerOne;
+  footerBtn.style.color = headerOne;
+  navBtn.style.color = headerOne;
   document.querySelector(`p`).style.color = headerOne;
   document.querySelector(`h1`).style.color = headerOne;
   document.getElementById(`pBackground`).style.backgroundColor = colorOne;
@@ -20,12 +24,16 @@ document.getElementById("mainClick").addEventListener("click", function () {
   navBtn.style.background = colorOne;
 });
 document.getElementById("secondBtn").addEventListener("click", function () {
-  document.body.style.background = headerTwo;
+  document.body.style.backgroundColor = headerTwo;
   document.querySelector(`p`).style.color = colorBackgroundTwo;
   document.querySelector(`h1`).style.color = colorBackgroundTwo;
+  mainClick.style.color = colorBackgroundTwo;
+  secondBtn.style.color = colorBackgroundTwo;
+  footerBtn.style.color = colorBackgroundTwo;
+  navBtn.style.color = colorBackgroundTwo;
   document.getElementById(`pBackground`).style.backgroundColor = colorTwo;
   mainClick.style.backgroundColor = colorTwo;
   secondBtn.style.backgroundColor = colorTwo;
-  footerBtn.style.background = colorTwo;
-  navBtn.style.background = colorTwo;
+  footerBtn.style.backgroundColor = colorTwo;
+  navBtn.style.backgroundColor = colorTwo;
 });
