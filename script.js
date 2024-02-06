@@ -1,7 +1,7 @@
 // These colors will change the page to light mode.
-let colorOne = `white`;
-let colorBackgroundOne = `orange`;
-let headerOne = `rgb(3, 28, 28)`;
+let colorOne = `#F6C28B`;
+let colorBackgroundOne = `#CFE8EF`;
+let headerOne = `black`;
 // These colors will reset the page back to the original look.
 let colorTwo = `rgb(3, 28, 28)`;
 let colorBackgroundTwo = `rgb(246, 144, 20)`;
