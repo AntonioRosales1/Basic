@@ -65,7 +65,7 @@ window.alert = function (message, timeout = 10000) {
   font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
-  background: ${colorTwo}
+  background: #8d8079
  
   `
   );
@@ -78,7 +78,7 @@ window.alert = function (message, timeout = 10000) {
   top: 20%;
   left: 30%;
   padding:20px;
-  background:${colorTwo};
+  background:#8d8079;
  
   width: 450px;
   height: 250px;
